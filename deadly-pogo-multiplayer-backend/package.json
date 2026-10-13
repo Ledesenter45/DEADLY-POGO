@@ -1,0 +1,16 @@
+{
+  "name": "deadly-pogo-multiplayer-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Room and co-op presence server for DEADLY POGO HTML game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  }
+}
